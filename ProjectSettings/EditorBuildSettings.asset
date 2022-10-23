@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/[Scenes]/Main Menu.unity
+    guid: 272f2c410cdb58343a527c4d7dc3ac46
+  - enabled: 1
+    path: Assets/[Scenes]/Main Game.unity
+    guid: 3fc8acdd13e6c734bafef6554d6fdbcd
+  - enabled: 1
+    path: Assets/[Scenes]/Instuctions.unity
+    guid: a4fd11b6c99c1ec40aa4492a928ac4f9
+  - enabled: 1
+    path: Assets/[Scenes]/Game Over.unity
+    guid: 8939d3cefd0395b4fb728b99dbebf401
+  m_configObjects:
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: b846f428039b79a41a568702849d44ec, type: 2}
