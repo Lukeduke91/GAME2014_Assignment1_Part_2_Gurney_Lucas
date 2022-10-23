@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -64,8 +65,10 @@ public class ScoreManager : MonoBehaviour
     public void UpdateHealthLabel()
     {
         healthLable.text = $"Health: {health}";
+        //This checks to see when the health reaches zero
         if (health == 0)
         {
+            //When the check is true, the the game will load into the GameOver scene
             SceneManager.LoadScene(3);
         }
     }
