@@ -3,6 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using UnityEngine;
+using static Unity.VisualScripting.Member;
+
+/// BulletBehaviour.cs 
+/// Lucas Gurney
+/// 101313633 
+/// October 23 2022 1:20 PM
+/// Used for making bullets move in a specific direction and checking boundaries
 
 [System.Serializable]
 public struct ScreenBounds

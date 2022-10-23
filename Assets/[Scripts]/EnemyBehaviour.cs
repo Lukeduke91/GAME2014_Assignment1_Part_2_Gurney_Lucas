@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-/// <summary>
-/// 1:20
-/// </summary>
+
+/// EnemyBehaviour.cs 
+/// Lucas Gurney
+/// 101313633 
+/// October 23 2022 1:20 PM
+/// Enemies will bounce left and right and slowly moves down, While shooting bullets downwards
+
 public class EnemyBehaviour : MonoBehaviour
 {
     public Boundary horizontalBoundary;

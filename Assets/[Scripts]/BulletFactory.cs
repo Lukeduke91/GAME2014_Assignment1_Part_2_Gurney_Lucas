@@ -2,6 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// BulletFactory.cs 
+/// Lucas Gurney
+/// 101313633 
+/// October 23 2022 1:20 PM
+/// used for setting the bullet's sprite and the direction will go 
+
 [System.Serializable]
 public class BulletFactory : MonoBehaviour
 {

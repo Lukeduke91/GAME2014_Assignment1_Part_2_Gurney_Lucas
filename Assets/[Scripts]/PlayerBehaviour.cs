@@ -1,9 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-/// <summary>
-/// 1:20
-/// </summary>
+
+/// PlayerBehaviour.cs 
+/// Lucas Gurney
+/// 101313633 
+/// October 23 2022 1:20 PM
+/// Used to move the player around along with shooting bullets
+
 public class PlayerBehaviour : MonoBehaviour
 {
     [Header("Player Properties")]

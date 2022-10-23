@@ -2,6 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// BulletManager.cs 
+/// Lucas Gurney
+/// 101313633 
+/// October 23 2022 1:20 PM
+/// This scripts is used to keep track of Bullets for both the enemies and the players
+
 [System.Serializable]
 public class BulletManager : MonoBehaviour
 {

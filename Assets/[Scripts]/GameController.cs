@@ -2,6 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// GameController.cs 
+/// Lucas Gurney
+/// 101313633 
+/// October 23 2022 1:20 PM
+/// This scripts is used to keep track of the enemies in the play scene
+
 public class GameController : MonoBehaviour
 {
     [Range(1, 4)]

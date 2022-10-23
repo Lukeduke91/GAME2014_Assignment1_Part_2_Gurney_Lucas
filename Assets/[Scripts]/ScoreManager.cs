@@ -3,9 +3,13 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-/// <summary>
-/// 1:20
-/// </summary>
+
+/// ScoreManager.cs 
+/// Lucas Gurney
+/// 101313633 
+/// October 23 2022 1:20 PM
+/// Used for keeping track of both the score and the players health
+
 [System.Serializable]
 public class ScoreManager : MonoBehaviour
 {
